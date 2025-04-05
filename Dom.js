@@ -48,10 +48,19 @@ console.log(variable1);
 // console.log(counter());
 // console.log(counter());
 
-console.log(
-  "10" + 100 + 10
-); /* it fisrt consider it string so full it consider string 1010010*/
+// console.log(
+//   "10" + 100 + 10
+// ); /* it fisrt consider it string so full it consider string 1010010*/
 
-console.log(
-  10 + 100 + "10"
-); /* it consider first number then all consider number*/
+// console.log(
+//   10 + 100 + "10"
+// ); /* it consider first number then all consider number*/
+
+// console.log(100);
+
+// setTimeout(() => {
+//   console.log(200);
+// }, 3000);
+
+// console.log(400);
+
