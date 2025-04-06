@@ -1,14 +1,14 @@
-var variable = 1000;
-{
-  var variable = 2000;
-}
-let variable1 = variable;
+// var variable = 1000;
+// {
+//   var variable = 2000;
+// }
+// let variable1 = variable;
 
-{
-  let variable = 3000; /*let is not accessible outside the block scope*/
-}
+// {
+//   let variable = 3000; /*let is not accessible outside the block scope*/
+// }
 
-console.log(variable1);
+// console.log(variable1);
 
 // Function CURRYING inn js -refres to the multiple aregument are being inistliazed in the sequnce of funtion
 
@@ -63,4 +63,30 @@ console.log(variable1);
 // }, 3000);
 
 // console.log(400);
+
+
+// console.log("2" - 2); /*0*/
+// console.log(2 - "2"); /*0*/
+
+
+// compare an array with an element in JavaScript to check if that element exists 
+
+// using in built includes() function
+
+// const arr = [1, 2, 3, 4, 5];
+// const element = 4;
+// const found = arr.includes(element);
+// console.log(found);
+
+
+const arr = [1, 2, 3, 4, 5, 6];
+const element = 3;
+let found = false;
+for (let i = 0; i <= arr.length; i++) {
+  if (arr[i] == element) {
+    found= true;
+    break;
+  }
+}
+console.log(found);
 
