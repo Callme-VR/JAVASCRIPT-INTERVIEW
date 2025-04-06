@@ -136,5 +136,15 @@ console.log(str.charAt(3));
 // temporal Dead zone is peroid bewteeen when a varibale is declred (using let and const)
 // when it intialized during this time accessing variable it througha error 
 // console.log(g); /* refrence error*/
-// let g = 19; 
+// let g = 19; s
 // console.log(g);
+
+
+// method to hidden element and text etc
+
+// element{
+//     visiblity:visible|hidden|collapse|inherit
+// }
+// h1{
+//     display:"none"
+// }

@@ -79,14 +79,26 @@
 // console.log(found);
 
 
-const arr = [1, 2, 3, 4, 5, 6];
-const element = 3;
-let found = false;
-for (let i = 0; i <= arr.length; i++) {
-  if (arr[i] == element) {
-    found= true;
-    break;
-  }
-}
-console.log(found);
+// const arr = [1, 2, 3, 4, 5, 6];
+// const element = 3;
+// let found = false;
+// for (let i = 0; i <= arr.length; i++) {
+//   if (arr[i] == element) {
+//     found = true;
+//     break;
+//   }
+// }
+// console.log(found);
 
+
+
+function addnum(){
+  console.log("add");
+  return 202+202;
+}
+function subtractnum(){
+  console.log("subtract");
+  return 200-200;
+}
+let a=(addnum(),subtractnum());
+console.log(a);
