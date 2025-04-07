@@ -136,6 +136,7 @@
 
 // what is immediate invoked funtion Expression
 // it function that is executed as soon as defined
+// but is canot be accesdd outside the function
 
 (function () {
   const name = "Vishal";
@@ -143,3 +144,6 @@
 })();
 
 // Output: Hello, Vishal
+
+console.log(+"555"); /*uranay operator convert string to number */ /*it remain 555*/
+console.log(+555);
