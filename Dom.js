@@ -92,13 +92,54 @@
 
 
 
-function addnum(){
-  console.log("add");
-  return 202+202;
-}
-function subtractnum(){
-  console.log("subtract");
-  return 200-200;
-}
-let a=(addnum(),subtractnum());
-console.log(a);
+// function addnum(){
+//   console.log("add");
+//   return 202+202;
+// }
+// function subtractnum(){
+//   console.log("subtract");
+//   return 200-200;
+// }
+// let a=(addnum(),subtractnum());
+// console.log(a);
+
+
+// EVENT in JS
+// events are actions or occurrences that happen in the browser that the system tells you about so you can respond to them — like when a user clicks a button, submits a form, moves the mouse, presses a key, etc.
+
+// const button = document.getElementById("btn");
+// const output = document.getElementById('output');
+
+
+
+// button.addEventListener("click", function () {
+//   output.textContent = "BUtton in clicker";
+// })
+
+// mouse event- mouseOver,mouseOut,moueseMove etc;
+// keyboard event - keydonw,keyup,keypress etc;
+
+// Borwser object model (BOM)-BOM allwow js to intract with the browser window and its feature 
+// feature-window,document,history,location etc;
+
+// what is function expression and its declartion-
+// A function expression is when you define a function and assign it to a variable.
+// const add = function (a, b) {
+//   console.log(a + b);
+// }
+
+
+// let numVal = 2;
+// let a = !--numVal;
+// let b = !--numVal;
+// console.log(a, b);
+
+// what is immediate invoked funtion Expression
+// it function that is executed as soon as defined
+
+(function () {
+  const name = "Vishal";
+  console.log(`Hello, ${name}`);
+})();
+
+// Output: Hello, Vishal
