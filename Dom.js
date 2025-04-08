@@ -144,6 +144,7 @@
 })();
 
 // Output: Hello, Vishal
+// uranary operator is used to convert a string to a number without using parseInt(),parsefloat(),number()
 
 console.log(+"555"); /*uranay operator convert string to number */ /*it remain 555*/
 console.log(+555);
