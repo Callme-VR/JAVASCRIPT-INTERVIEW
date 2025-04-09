@@ -50,3 +50,23 @@
 // allow user to type and choose 
 // good for search bar
 // ux fells like google search option
+
+
+{
+    /* <meter> Tag – Represents a known value within a known range
+    Used for things like:
+    Score indicators
+    Battery level
+    Signal strength */
+} {
+    /* <progress> Tag – Represents progress of a task
+    Used for:
+    File uploads
+    Loading indicators
+    Form completion progress */
+}
+
+
+console.log("A"-1);/*Nan*/
+console.log("tilak"+100);
+console.log('2'+2+'2');
