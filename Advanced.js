@@ -67,6 +67,22 @@
 }
 
 
-console.log("A"-1);/*Nan*/
-console.log("tilak"+100);
-console.log('2'+2+'2');
+// console.log("A"-1);/*Nan*/
+// console.log("tilak"+100);
+// console.log('2'+2+'2');
+// console.log('2'+2-'2');
+const a = {};
+const b = {
+    name: "vishal",
+
+}
+const c = {
+    name: "ram"
+}
+a[b] = {
+    name: "ankit"
+}
+a[c] = {
+    name: "vansh"
+}
+console.log(a[b]);
