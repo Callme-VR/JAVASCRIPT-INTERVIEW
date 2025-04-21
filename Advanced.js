@@ -71,6 +71,7 @@
 // console.log("tilak"+100);
 // console.log('2'+2+'2');
 // console.log('2'+2-'2');
+
 const a = {};
 const b = {
     name: "vishal",
