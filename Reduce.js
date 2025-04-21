@@ -47,8 +47,34 @@
 
 // console.log(doubled); // [2, 4, 6, 8]
 
-const fruits = ['apple', 'banana', 'cherry'];
-const htmlList = fruits.map(fruit => `<li>${fruit}</li>`);
+// const fruits = ['apple', 'banana', 'cherry'];
+// const htmlList = fruits.map(fruit => `<li>${fruit}</li>`);
 
-console.log(htmlList);
-// ["<li>apple</li>", "<li>banana</li>", "<li>cherry</li>"]
+// console.log(htmlList);
+// // ["<li>apple</li>", "<li>banana</li>", "<li>cherry</li>"]
+
+// filter ()-keep only matching items
+// create a new array containng only element that pass condition return true
+
+// const number = [1, 2, 4, 5];
+// const even = number.filter(num => num % 2 === 0);
+// console.log(even);
+
+const users = [{
+        name: "Vishal",
+        active: true
+    },
+    {
+        name: "Arjun",
+        active: false
+    },
+    {
+        name: "Meena",
+        active: true
+    },
+];
+
+const activeUsers = users.filter(user => user.active);
+
+console.log(activeUsers);
+// [{ name: "Vishal", active: true }, { name: "Meena", active: true }]
